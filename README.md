@@ -1,49 +1,69 @@
-# Lista 3 — Algoritmos de Busca em Python
+# Lista 03 — Algoritmos de Busca em Python
 
-Repositório acadêmico com exercícios de **Algoritmos e Estruturas de Dados**, desenvolvido em Python durante o curso de Engenharia de Software.
+Repositório acadêmico com **30 exercícios de Algoritmos e Estruturas de Dados**, focados em busca sequencial, busca binária e comparação entre estratégias.
 
-## Conteúdo
+**Nível:** intermediário  
+**Objetivo:** entender como diferentes algoritmos de busca funcionam e por que a organização dos dados influencia o desempenho.
 
-Este repositório reúne 30 exercícios envolvendo:
+## O que você vai praticar
 
 - busca sequencial;
 - busca binária;
 - contagem de comparações;
 - listas ordenadas;
-- localização da primeira e última ocorrência;
+- primeira e última ocorrência;
 - aplicações práticas de busca;
-- comparação entre estratégias de busca.
+- comparação entre estratégias.
 
 ## Estrutura
-
-Os exercícios estão organizados em arquivos independentes:
 
 ```text
 exercicio01.py
 exercicio02.py
 ...
 exercicio30.py
+main.py
 ```
 
-O arquivo `main.py` serve como ponto complementar de execução do projeto.
-
 ## Como executar
-
-No terminal, dentro da pasta do projeto:
 
 ```bash
 python exercicio01.py
 ```
 
-Troque o número do arquivo pelo exercício desejado.
+Troque o número pelo exercício desejado.
+
+## Como estudar
+
+1. resolva primeiro com busca sequencial;
+2. conte quantas comparações foram necessárias;
+3. repita com busca binária quando os dados estiverem ordenados;
+4. observe como `inicio`, `fim` e `meio` mudam;
+5. explique quando vale a pena ordenar os dados antes de pesquisar.
+
+## Conceito-chave
+
+A busca binária é eficiente porque reduz o espaço de busca a cada etapa, mas depende de dados ordenados. A busca sequencial funciona mesmo sem ordenação, porém pode precisar percorrer muitos elementos.
+
+## Desafio extra
+
+Implemente um pequeno comparador que execute as duas buscas no mesmo conjunto de dados e mostre o número de comparações de cada algoritmo.
+
+## Próximo passo
+
+Depois desta lista, estude [lista-04-segundo-periodo](https://github.com/Videirafoo/lista-04-segundo-periodo), dedicada a recursividade.
+
+## Qualidade
+
+O GitHub Actions valida automaticamente a sintaxe dos arquivos Python.
 
 ## Tecnologias
 
-- Python 3
-- Visual Studio Code
-- Git e GitHub
+`Python 3` · `Algoritmos` · `Estruturas de Dados` · `GitHub Actions`
 
 ## Autor
 
 **Fernando Otávio Videira Junior**  
 Engenharia de Software — Universidade de Vassouras, Campus Saquarema
+
+> Não basta saber usar uma busca: o objetivo é entender o custo da estratégia escolhida.
